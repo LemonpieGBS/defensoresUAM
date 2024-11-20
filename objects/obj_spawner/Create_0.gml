@@ -6,10 +6,11 @@ spawn_count = 0;
 
 spawn_rate = 1 * room_speed;
 alarm[0] = spawn_rate;
-alarm[1] = spawn_rate * 5;
+alarm[1] = spawn_rate * 20;
 
 global.hp = 100;
 global.spd = 1;
 global.level = 1;
 
 global.coins = 100;
+global.lives = 50;
