@@ -57,6 +57,7 @@
     {"id":{"name":"spr_enemy_2","path":"sprites/spr_enemy_2/spr_enemy_2.yy",},},
     {"id":{"name":"spr_enemy_3","path":"sprites/spr_enemy_3/spr_enemy_3.yy",},},
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},},
+    {"id":{"name":"spr_gamebackground_1","path":"sprites/spr_gamebackground_1/spr_gamebackground_1.yy",},},
     {"id":{"name":"spr_genericenemy","path":"sprites/spr_genericenemy/spr_genericenemy.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_tower_2","path":"sprites/spr_tower_2/spr_tower_2.yy",},},

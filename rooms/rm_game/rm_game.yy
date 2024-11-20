@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_game",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_game/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -192,8 +192,8 @@
           -3,1,1,2,-19,1,1,2,-19,1,1,2,-19,1,1,2,-3,1,-12,2,-4,1,1,2,-3,1,1,2,-10,1,1,2,-4,1,1,2,-3,1,1,2,-10,
           1,1,2,-4,1,1,2,-3,1,2,2,1,-4,2,-2,1,-4,2,-4,1,-5,2,8,1,2,1,1,2,1,1,2,-13,1,7,2,1,1,2,1,1,2,-8,1,-6,2,
           -2,1,-4,2,-8,1,1,2,-19,1,-15,2,-19,1,1,2,-14,1,-6,2,-14,1,1,2,-6,1,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_gamebackground_1","path":"sprites/spr_gamebackground_1/spr_gamebackground_1.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_game",
   "parent":{
