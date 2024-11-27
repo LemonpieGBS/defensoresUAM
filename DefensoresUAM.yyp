@@ -52,6 +52,8 @@
     {"id":{"name":"obj_unplaceable","path":"objects/obj_unplaceable/obj_unplaceable.yy",},},
     {"id":{"name":"pth_game","path":"paths/pth_game/pth_game.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"draw_healthbar","path":"scripts/draw_healthbar/draw_healthbar.yy",},},
+    {"id":{"name":"draw_text_outline","path":"scripts/draw_text_outline/draw_text_outline.yy",},},
     {"id":{"name":"ENEMY","path":"scripts/ENEMY/ENEMY.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_enemy_2","path":"sprites/spr_enemy_2/spr_enemy_2.yy",},},
