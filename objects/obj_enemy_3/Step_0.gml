@@ -5,7 +5,7 @@ en_int_hp = min(en_int_hp, max_hp);
 
 if(en_int_hp <= 0) {
 	instance_destroy();
-	global.coins += 50;
+	global.coins += 100;
 	var _enemy = new ENEMY(global.hp, global.spd, obj_enemy);
 	for(var _i = 0; _i < 4; _i++) {
 		var _instance = _enemy.spawn(x - 5 + _i * 2, y);

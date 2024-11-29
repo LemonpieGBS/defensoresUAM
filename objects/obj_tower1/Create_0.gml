@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 range = 100;
-fire_rate = 0.35 * room_speed;
+fire_rate = 0.22 * room_speed;
 shooting = false;
 object_to_shoot = noone;
 

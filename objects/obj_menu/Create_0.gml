@@ -8,7 +8,7 @@
 function menu_start() {
     // Código para iniciar el juego
     room_goto(rm_game);
-	audio_play_sound(cancion,0,0);
+	audio_play_sound(cancion,0,999);
 }
 
 /// @function menu_select_map()

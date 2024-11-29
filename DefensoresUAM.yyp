@@ -36,6 +36,8 @@
   },
   "name":"DefensoresUAM",
   "resources":[
+    {"id":{"name":"fn_font_1","path":"fonts/fn_font_1/fn_font_1.yy",},},
+    {"id":{"name":"fn_font_nombres","path":"fonts/fn_font_nombres/fn_font_nombres.yy",},},
     {"id":{"name":"fn_font","path":"fonts/fn_font/fn_font.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_enemy_2","path":"objects/obj_enemy_2/obj_enemy_2.yy",},},

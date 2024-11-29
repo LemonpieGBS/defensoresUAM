@@ -8,10 +8,11 @@ object_to_shoot = noone;
 
 function attack_procedure() {
 	audio_play_sound(bala,0,0);
-	for(var _i = 0; _i < 8; _i++) {
+	var bullet_amount = 32;
+	for(var _i = 0; _i < bullet_amount; _i++) {
 		var _bullet = instance_create_layer(x, y, "Bullets", obj_bullet);
 		_bullet.speed = 2;
-		_bullet.direction = _i * 45;
-		_bullet.lifetime = 30;
+		_bullet.direction = _i * 360 / bullet_amount;
+		_bullet.lifetime = 20;
 	}
 }

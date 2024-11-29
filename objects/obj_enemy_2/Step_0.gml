@@ -5,7 +5,7 @@ en_int_hp = min(en_int_hp, max_hp);
 
 if(en_int_hp <= 0) {
 	instance_destroy();
-	global.coins += 20;
+	global.coins += 50;
 }
 
 if(path_position == 1) {

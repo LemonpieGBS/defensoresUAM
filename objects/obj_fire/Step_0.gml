@@ -3,7 +3,7 @@
 image_alpha -= 0.01;
 if(image_alpha <= 0) instance_destroy();
 
-image_xscale = 1 + additional_scale;
-image_yscale = 1 + additional_scale;
+image_xscale = (1.5 + additional_scale) * xscale_sign;
+image_yscale = 1.5 + additional_scale;
 
-additional_scale *= 0.9;
+additional_scale *= 0.95;
