@@ -7,6 +7,7 @@ shooting = false;
 object_to_shoot = noone;
 
 function attack_procedure() {
+	audio_play_sound(bala,0,0);
 	for(var _i = 0; _i < 8; _i++) {
 		var _bullet = instance_create_layer(x, y, "Bullets", obj_bullet);
 		_bullet.speed = 2;

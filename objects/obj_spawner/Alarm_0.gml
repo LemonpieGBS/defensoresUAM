@@ -11,7 +11,7 @@ if(spawn_count < spawn_amount) {
 			var _enemy = new ENEMY(global.hp * 3, global.spd * 0.25, obj_enemy_3);
 			_enemy.spawn(x, y);
 		} else if(irandom_range(1, 5) == 1) {
-			var _enemy = new ENEMY(global.hp * 0.5, global.spd * 1.5, obj_enemy_2);
+			var _enemy = new ENEMY(global.hp * 0.5, global.spd * 2, obj_enemy_2);
 			_enemy.spawn(x, y);
 		} else {
 			var _enemy = new ENEMY(global.hp, global.spd, obj_enemy);
